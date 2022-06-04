@@ -1,0 +1,389 @@
+CRITICAL - 2022-05-18 02:22:09 --> Invalid file: navbar.php
+#0 C:\xampp\htdocs\tokoo\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('navbar.php')
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(424): CodeIgniter\View\View->render('navbar', NULL, true)
+#2 C:\xampp\htdocs\tokoo\app\Views\layout.php(33): CodeIgniter\View\View->include('navbar')
+#3 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('layout', Array, true)
+#6 C:\xampp\htdocs\tokoo\app\Controllers\Home.php(9): view('layout')
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-18 02:46:40 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 02:49:33 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+ERROR - 2022-05-18 03:19:56 --> Error connecting to the database: Unknown database 'db_ecmrc'
+CRITICAL - 2022-05-18 03:19:56 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_ecmrc'
+#0 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#2 C:\xampp\htdocs\tokoo\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#3 C:\xampp\htdocs\tokoo\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Auth.php(36): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): APP\Controllers\C_Auth->register()
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(APP\Controllers\C_Auth))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-18 03:36:56 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 03:37:03 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:07:06 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:07:09 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:07:19 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:11:41 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:11:44 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:12:04 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:12:11 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:24:15 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:24:17 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:24:42 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:24:51 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:36:32 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:36:34 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:36:56 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 04:38:39 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:15:21 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('register', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:21:18 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('register', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:21:18 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('register', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:21:18 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('register', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:21:20 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('register', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:21:27 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:21:46 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:22:07 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:22:14 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:41:05 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:41:15 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:41:21 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:44:28 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:44:33 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index.php', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:44:47 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:44:59 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:45:12 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:45:21 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:45:29 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:48:21 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:48:23 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:48:30 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:50:26 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:50:27 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:50:30 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 05:50:39 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 06:00:48 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 06:00:49 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 06:00:55 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 06:01:04 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index.php', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 06:01:11 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 06:01:15 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 06:01:20 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 06:01:34 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 06:01:42 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 09:04:38 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('/', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 09:04:53 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 09:05:10 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('bootstrap/dist/...', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 09:05:19 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 09:28:26 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 09:36:56 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 09:36:57 --> Class "Config\Auth" not found
+#0 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(393): CodeIgniter\Filters\Filters->run('Home/index', 'before')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2022-05-18 10:03:39 --> Class "APP\Controllers\BaseController" not found
+#0 C:\xampp\htdocs\tokoo\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\tokoo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_Auth/register')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_Auth/register')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-18 10:03:57 --> Class "APP\Controllers\BaseController" not found
+#0 C:\xampp\htdocs\tokoo\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\tokoo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_Auth/register')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_Auth/register')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-18 10:04:13 --> Class "APP\Controllers\BaseController" not found
+#0 C:\xampp\htdocs\tokoo\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\tokoo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_Auth/register')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_Auth/register')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-18 10:04:33 --> Class "APP\Controllers\BaseController" not found
+#0 C:\xampp\htdocs\tokoo\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\tokoo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_Auth/login')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_Auth/login')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-18 10:04:54 --> Class "APP\Controllers\BaseController" not found
+#0 C:\xampp\htdocs\tokoo\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\tokoo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_Auth/register')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_Auth/register')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-18 10:05:35 --> Class "APP\Controllers\Controller" not found
+#0 C:\xampp\htdocs\tokoo\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\tokoo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_Auth/register')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_Auth/register')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-18 10:05:36 --> Class "APP\Controllers\Controller" not found
+#0 C:\xampp\htdocs\tokoo\system\Router\Router.php(518): include_once()
+#1 C:\xampp\htdocs\tokoo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_Auth/register')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_Auth/register')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

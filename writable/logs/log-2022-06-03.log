@@ -1,0 +1,501 @@
+ERROR - 2022-06-03 10:48:43 --> Table 'db_toko.tb_user' doesn't exist
+CRITICAL - 2022-06-03 10:48:43 --> Table 'db_toko.tb_user' doesn't exist
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Auth.php(66): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Auth->login()
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Auth))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-03 10:49:45 --> Table 'db_toko.tb_user' doesn't exist
+CRITICAL - 2022-06-03 10:49:45 --> Table 'db_toko.tb_user' doesn't exist
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Auth.php(66): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Auth->login()
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Auth))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-06-03 10:50:04 --> Table 'db_toko.tb_user' doesn't exist
+CRITICAL - 2022-06-03 10:50:04 --> Table 'db_toko.tb_user' doesn't exist
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\tokoo\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\tokoo\system\BaseModel.php(658): CodeIgniter\Model->insert(Object(App\Entities\User), false)
+#8 C:\xampp\htdocs\tokoo\app\Controllers\C_Auth.php(40): CodeIgniter\BaseModel->save(Object(App\Entities\User))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Auth->register()
+#10 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Auth))
+#11 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-03 11:09:08 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-03 11:45:05 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 11:45:53 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 12:00:14 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 12:01:15 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 12:01:32 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 12:01:33 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 12:08:56 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 12:08:57 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 12:09:03 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 12:09:21 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 12:09:22 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:04:29 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:07:22 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:16:46 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:16:47 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:18:51 --> array_values(): Argument #1 ($array) must be of type array, CodeIgniter\Session\Session given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(Object(CodeIgniter\Session\Session))
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:18:54 --> array_values(): Argument #1 ($array) must be of type array, CodeIgniter\Session\Session given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(Object(CodeIgniter\Session\Session))
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:20:37 --> Undefined variable $items
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(175): view('keranjang/index')
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 20:22:58 --> Undefined variable $items
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(175): view('keranjang/index')
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 20:38:05 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:39:07 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:46:41 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:47:12 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:51:40 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 20:55:02 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 21:03:50 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(174): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 21:22:56 --> Undefined variable $model
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(42): view('etalase/transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 21:23:31 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(42): view('etalase/transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 21:26:49 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\transaksi\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('transaksi/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 21:40:12 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\transaksi\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('transaksi/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 21:40:15 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\transaksi\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('transaksi/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 22:14:40 --> Attempt to read property "id_barang" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 22:15:04 --> Attempt to read property "id_barang" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 22:15:48 --> Attempt to read property "id_barang" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 22:17:10 --> Attempt to read property "id_pembeli" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 22:17:55 --> Attempt to read property "id_barang" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 22:18:05 --> Attempt to read property "id_barang" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 22:24:17 --> Attempt to read property "id_trans" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\transaksi\view.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/view', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(27): view('transaksi/view', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 22:25:31 --> Attempt to read property "id_trans" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\transaksi\view.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/view', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(27): view('transaksi/view', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 22:38:06 --> Undefined variable $id_pembeli
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 22:38:40 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase\\transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('etalase\\transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 22:38:44 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase\\transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('etalase\\transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 22:56:37 --> Unclosed '{' on line 42 does not match ']'
+#0 C:\xampp\htdocs\tokoo\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('C_Transaksi/ind...')
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('C_Transaksi/ind...')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 22:58:43 --> Attempt to read property "id_barang" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 23:03:00 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase\\transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('etalase\\transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 23:04:43 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase\\transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('etalase\\transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 23:06:22 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase\\transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('etalase\\transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 23:06:23 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase\\transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('etalase\\transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 23:11:11 --> Attempt to read property "id_pembeli" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 23:18:07 --> array_values(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(175): array_values(NULL)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index_cart()
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-03 23:20:25 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\transaksi\index.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('transaksi/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 23:23:20 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('etalase/transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 23:23:38 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('etalase/transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-03 23:23:56 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\transaksi.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/transak...', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(47): view('etalase/transak...', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index_cust()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,170 @@
+CRITICAL - 2022-05-23 22:19:06 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:20:02 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:21:45 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:21:49 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-23 22:30:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-23 22:30:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Auth.php(60): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Auth->login()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Auth))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-23 22:30:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-05-23 22:30:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\tokoo\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\tokoo\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(20): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->index()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 22:31:06 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:32:15 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:32:22 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:44:24 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:44:28 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:44:30 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:49:33 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:49:52 --> Undefined variable $provinsi
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 22:50:21 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:54:41 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:54:44 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:54:47 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:54:48 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:55:46 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:56:59 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 22:57:02 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 75)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,452 @@
+CRITICAL - 2022-05-31 04:27:15 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(85): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 05:18:02 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 05:18:27 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 06:18:08 --> Undefined property: App\Controllers\C_Keranjang::$url
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 133)
+#1 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(34): App\Controllers\C_Keranjang->rajaongkir('province')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 06:19:33 --> Undefined property: App\Controllers\C_Keranjang::$url
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 133)
+#1 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(34): App\Controllers\C_Keranjang->rajaongkir('province')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 06:19:36 --> Undefined property: App\Controllers\C_Keranjang::$url
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 133)
+#1 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(34): App\Controllers\C_Keranjang->rajaongkir('province')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 06:21:16 --> Undefined property: App\Controllers\C_Keranjang::$url
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 133)
+#1 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(34): App\Controllers\C_Keranjang->rajaongkir('province')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-31 06:22:09 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 06:23:10 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 06:23:31 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:03:16 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:03:17 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:36:04 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:36:38 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:37:00 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:37:26 --> Attempt to read property "nama" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:42:05 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:43:13 --> Attempt to read property "gambar" on null
+#0 C:\xampp\htdocs\tokoo\app\Views\etalase\beli.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('etalase/beli', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('etalase/beli', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:43:59 --> Undefined variable $barangs
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:44:45 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 07:57:43 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(82): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 08:00:44 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(76): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 08:01:03 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(76): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 08:38:27 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(76): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 08:39:09 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(76): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 08:42:16 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(76): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 08:43:02 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(69): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 08:43:06 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(69): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 18:51:10 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(69): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 18:52:33 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(67): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 18:53:41 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Keranjang.php(67): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Keranjang->tambah_cart()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Keranjang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 21:18:19 --> Undefined property: App\Controllers\C_Etalase::$cart
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 183)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 21:20:21 --> Undefined property: App\Controllers\C_Etalase::$load
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 170)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 21:47:49 --> Undefined property: App\Controllers\C_Etalase::$load
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(170): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 170)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 21:49:26 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\tokoo\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\tokoo\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(186): redirect('keranjang/index')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('1')
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 21:49:38 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\tokoo\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\tokoo\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(186): redirect('keranjang/index')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('1')
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 21:52:50 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\tokoo\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\tokoo\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(186): redirect('keranjang/index')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('1')
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 21:52:55 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\tokoo\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\tokoo\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(186): redirect('keranjang/index')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('2')
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 21:56:57 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\tokoo\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\tokoo\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(186): redirect('keranjang/index')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('1')
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-31 22:05:28 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->view('0')
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 22:05:38 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(177): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->view('0')
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 23:31:56 --> CodeIgniter\Entity\Entity::fill(): Argument #1 ($data) must be of type ?array, App\Models\M_Barang given, called in C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php on line 176
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(176): CodeIgniter\Entity\Entity->fill(Object(App\Models\M_Barang))
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 23:33:48 --> Undefined variable $models
+#0 C:\xampp\htdocs\tokoo\app\Views\keranjang\index.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('keranjang/index', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(178): view('keranjang/index', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('1')
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 23:44:05 --> There is no data to update.
+#0 C:\xampp\htdocs\tokoo\system\BaseModel.php(1593): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\tokoo\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(Array, 'update')
+#2 C:\xampp\htdocs\tokoo\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Object(App\Entities\Barang))
+#3 C:\xampp\htdocs\tokoo\system\BaseModel.php(656): CodeIgniter\Model->update('1', Object(App\Entities\Barang))
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(176): CodeIgniter\BaseModel->save(Object(App\Entities\Barang))
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->tambah_cart('1')
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-31 23:54:12 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-31 23:54:33 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

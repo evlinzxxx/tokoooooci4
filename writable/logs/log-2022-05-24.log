@@ -1,0 +1,417 @@
+CRITICAL - 2022-05-24 00:17:19 --> Undefined property: stdClass::$results
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-24 05:20:54 --> Unknown column 'transaksi.id' in 'where clause'
+CRITICAL - 2022-05-24 05:20:54 --> Unknown column 'transaksi.id' in 'where clause'
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tb_t...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tb_t...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tb_t...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `tb_t...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('1')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 05:25:27 --> Unknown column 'transaksi.id' in 'field list'
+CRITICAL - 2022-05-24 05:25:27 --> Unknown column 'transaksi.id' in 'field list'
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tran...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tran...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tran...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `tran...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('1')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 05:31:17 --> Unknown column 'transaksi.id' in 'where clause'
+CRITICAL - 2022-05-24 05:31:17 --> Unknown column 'transaksi.id' in 'where clause'
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('1')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 05:31:18 --> Unknown column 'transaksi.id' in 'where clause'
+CRITICAL - 2022-05-24 05:31:18 --> Unknown column 'transaksi.id' in 'where clause'
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('1')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 05:31:19 --> Unknown column 'transaksi.id' in 'where clause'
+CRITICAL - 2022-05-24 05:31:19 --> Unknown column 'transaksi.id' in 'where clause'
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('1')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 05:32:45 --> Unknown column 'barang.id' in 'on clause'
+CRITICAL - 2022-05-24 05:32:45 --> Unknown column 'barang.id' in 'on clause'
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('2')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-24 09:28:31 --> Undefined variable $tb_transaksi
+#0 C:\xampp\htdocs\tokoo\app\Views\transaksi\view.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/view', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(25): view('transaksi/view', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('3')
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 09:29:29 --> Undefined variable $id
+#0 C:\xampp\htdocs\tokoo\app\Views\transaksi\view.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/view', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(25): view('transaksi/view', Array)
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('3')
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 09:29:52 --> Undefined constant "id"
+#0 C:\xampp\htdocs\tokoo\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi/view', Array, true)
+#3 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(25): view('transaksi/view', Array)
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('3')
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-24 09:35:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` as `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+CRITICAL - 2022-05-24 09:35:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` as `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:36:09 --> Unknown column '* from' in 'field list'
+CRITICAL - 2022-05-24 09:36:09 --> Unknown column '* from' in 'field list'
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `* from`...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `* from`...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `* from`...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `* from`...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:40:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`C_Transaksi`, `tb_transaksi`.`id` as `id_trans`
+FROM `tb_transaksi`
+JOIN `tb...' at line 1
+CRITICAL - 2022-05-24 09:40:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`C_Transaksi`, `tb_transaksi`.`id` as `id_trans`
+FROM `tb_transaksi`
+JOIN `tb...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `C_Tra...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `C_Tra...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `C_Tra...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `C_Tra...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:41:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+CRITICAL - 2022-05-24 09:41:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:41:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+CRITICAL - 2022-05-24 09:41:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:41:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+CRITICAL - 2022-05-24 09:41:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+CRITICAL - 2022-05-24 09:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+CRITICAL - 2022-05-24 09:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+CRITICAL - 2022-05-24 09:41:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:43:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `idTrans`
+FROM `tb_transaksi`
+JOIN `tb...' at line 1
+CRITICAL - 2022-05-24 09:43:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `idTrans`
+FROM `tb_transaksi`
+JOIN `tb...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:45:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+CRITICAL - 2022-05-24 09:45:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:46:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+CRITICAL - 2022-05-24 09:46:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `tb_transaksi`.`id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `t...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:48:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, "tb_transaksi.id AS `id_trans"`
+FROM `tb_transaksi`
+JOIN `tb_...' at line 1
+CRITICAL - 2022-05-24 09:48:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, "tb_transaksi.id AS `id_trans"`
+FROM `tb_transaksi`
+JOIN `tb_...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:48:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `tb_barang` ON `t...' at line 1
+CRITICAL - 2022-05-24 09:48:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`tb_transaksi`, `id` AS `id_trans`
+FROM `tb_transaksi`
+JOIN `tb_barang` ON `t...' at line 1
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT * `tb_tr...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * `tb_tr...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * `tb_tr...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT * `tb_tr...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:49:38 --> Unknown column 'transaksi.id' in 'where clause'
+CRITICAL - 2022-05-24 09:49:38 --> Unknown column 'transaksi.id' in 'where clause'
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tb_t...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tb_t...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tb_t...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `tb_t...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-24 09:49:39 --> Unknown column 'transaksi.id' in 'where clause'
+CRITICAL - 2022-05-24 09:49:39 --> Unknown column 'transaksi.id' in 'where clause'
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tb_t...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tb_t...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tb_t...')
+#3 C:\xampp\htdocs\tokoo\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *, `tb_t...', Array, false)
+#4 C:\xampp\htdocs\tokoo\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\tokoo\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(22): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->view('4')
+#8 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#9 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-24 11:34:41 --> Invalid file: transaksi.php
+#0 C:\xampp\htdocs\tokoo\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi.php')
+#1 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#2 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(34): view('transaksi', Array)
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index()
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-24 11:49:36 --> Invalid file: transaksi.php
+#0 C:\xampp\htdocs\tokoo\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('transaksi.php')
+#1 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('transaksi', Array, true)
+#2 C:\xampp\htdocs\tokoo\app\Controllers\C_Transaksi.php(34): view('transaksi', Array)
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Transaksi->index()
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Transaksi))
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

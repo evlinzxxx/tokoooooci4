@@ -1,0 +1,141 @@
+ERROR - 2022-05-29 22:36:33 --> Tablespace for table '`db_toko`.`migrations`' exists. Please DISCARD the tablespace before IMPORT
+ERROR - 2022-05-29 22:38:48 --> Tablespace for table '`db_toko`.`migrations`' exists. Please DISCARD the tablespace before IMPORT
+ERROR - 2022-05-29 22:40:30 --> Tablespace for table '`db_toko`.`migrations`' exists. Please DISCARD the tablespace before IMPORT
+ERROR - 2022-05-29 22:40:58 --> Tablespace for table '`db_toko`.`migrations`' exists. Please DISCARD the tablespace before IMPORT
+ERROR - 2022-05-29 22:41:27 --> Tablespace for table '`db_toko`.`migrations`' exists. Please DISCARD the tablespace before IMPORT
+ERROR - 2022-05-29 22:44:00 --> Tablespace for table '`db_toko`.`migrations`' exists. Please DISCARD the tablespace before IMPORT
+ERROR - 2022-05-29 22:44:31 --> Tablespace for table '`db_toko`.`migrations`' exists. Please DISCARD the tablespace before IMPORT
+CRITICAL - 2022-05-29 22:44:31 --> Tablespace for table '`db_toko`.`migrations`' exists. Please DISCARD the tablespace before IMPORT
+#0 C:\xampp\htdocs\tokoo\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE TABLE IF...', 0)
+#1 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE IF...')
+#2 C:\xampp\htdocs\tokoo\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE IF...')
+#3 C:\xampp\htdocs\tokoo\system\Database\Forge.php(513): CodeIgniter\Database\BaseConnection->query('CREATE TABLE IF...')
+#4 C:\xampp\htdocs\tokoo\system\Database\MigrationRunner.php(801): CodeIgniter\Database\Forge->createTable('migrations', true)
+#5 C:\xampp\htdocs\tokoo\system\Database\MigrationRunner.php(634): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\tokoo\system\Commands\Database\MigrateStatus.php(111): CodeIgniter\Database\MigrationRunner->getHistory('')
+#7 C:\xampp\htdocs\tokoo\system\CLI\Commands.php(63): CodeIgniter\Commands\Database\MigrateStatus->run(Array)
+#8 C:\xampp\htdocs\tokoo\system\CLI\CommandRunner.php(70): CodeIgniter\CLI\Commands->run('migrate:status', Array)
+#9 C:\xampp\htdocs\tokoo\system\CLI\CommandRunner.php(56): CodeIgniter\CLI\CommandRunner->index(Array)
+#10 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(830): CodeIgniter\CLI\CommandRunner->_remap('index', 'migrate:status')
+#11 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(CodeIgniter\CLI\CommandRunner))
+#12 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\tokoo\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#14 C:\xampp\htdocs\tokoo\spark(63): CodeIgniter\CLI\Console->run()
+#15 {main}
+ERROR - 2022-05-29 22:46:47 --> Table 'db_toko.tb_transaksi' doesn't exist
+ERROR - 2022-05-29 22:48:25 --> Can't create table `db_toko`.`tb_transaksi` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-05-29 22:49:14 --> Can't create table `db_toko`.`tb_transaksi` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-05-29 22:50:35 --> Can't create table `db_toko`.`tb_transaksi` (errno: 150 "Foreign key constraint is incorrectly formed")
+ERROR - 2022-05-29 22:52:46 --> Can't create table `db_toko`.`tb_transaksi` (errno: 150 "Foreign key constraint is incorrectly formed")
+CRITICAL - 2022-05-29 23:16:33 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:16:57 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:16:58 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('1')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:09 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:22 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:23 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:23 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:24 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:32 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:48 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:49 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:50 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:50 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:51 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:52 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 23:17:53 --> Attempt to read property "rajaongkir" on null
+#0 C:\xampp\htdocs\tokoo\app\Controllers\C_Etalase.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 84)
+#1 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Etalase->beli('2')
+#2 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Etalase))
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,31 @@
+CRITICAL - 2022-05-21 06:29:53 --> Undefined variable $errors
+#0 C:\xampp\htdocs\tokoo\app\Views\barang\create.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('barang/create', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Barang.php(60): view('barang/create')
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Barang->create()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Barang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 06:31:17 --> Undefined variable $errors
+#0 C:\xampp\htdocs\tokoo\app\Views\barang\create.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 6)
+#1 C:\xampp\htdocs\tokoo\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoo\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoo\system\Common.php(1089): CodeIgniter\View\View->render('barang/create', Array, true)
+#4 C:\xampp\htdocs\tokoo\app\Controllers\C_Barang.php(60): view('barang/create')
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Barang->create()
+#6 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Barang))
+#7 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 22:47:38 --> barangupdate is not a validation rules group.
+#0 C:\xampp\htdocs\tokoo\system\Validation\Validation.php(543): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('barangupdate')
+#1 C:\xampp\htdocs\tokoo\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('barangupdate')
+#2 C:\xampp\htdocs\tokoo\app\Controllers\C_Barang.php(78): CodeIgniter\Validation\Validation->run(Array, 'barangupdate')
+#3 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(832): App\Controllers\C_Barang->update('1')
+#4 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_Barang))
+#5 C:\xampp\htdocs\tokoo\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\tokoo\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
