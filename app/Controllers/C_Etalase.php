@@ -43,7 +43,7 @@ class C_Etalase extends BaseController
     //function untuk menuju dan mengisi serta melakukan pembelian barang
     public function beli()
     {
-        //mengambil id dari segment create atau update barang
+        //mengambil id yang ada pada segment ke 3
         $id = $this->request->uri->getSegment(3);
 
         $modelBarang = new \App\Models\M_Barang();
@@ -214,7 +214,7 @@ class C_Etalase extends BaseController
     //function untuk menambahkan barang ke keranjang
     public function tambah_cart()
     {
-        //mengambil id dari segment create atau update barang
+        //mengambil segment ke 3 dari view beli yaitu id
         $id = $this->request->uri->getSegment(3);
 
         $modelBarang = new \App\Models\M_Barang();
@@ -250,7 +250,7 @@ class C_Etalase extends BaseController
      //function untuk menghapus barang di keranjang
     public function hapus_cart()
     {
-        //mengambil id dari segment create atau update barang
+        //mengambil segment ke 3 dari view beli yaitu id
         $id = $this->request->uri->getSegment(3);
         //temukan barang yg ingin dihapus dgn id di dalam model
         $modelBarang = new \App\Models\M_Barang();
