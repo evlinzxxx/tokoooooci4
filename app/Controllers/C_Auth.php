@@ -7,8 +7,8 @@ class C_Auth extends BaseController
     public function __construct()
     {
         helper('form');
-        $this->validation = \Config\Services::validation();
-        $this->session = session();
+        $this->validation = \Config\Services::validation();//library validation
+        $this->session = session();//library session
     }
 
     //function untuk mengarahkan ke view awal web
@@ -20,21 +20,23 @@ class C_Auth extends BaseController
     //function untuk registrasi
     public function register()
     {
-
+        //mengambil data register yang diinputkan user
+        //jalankan validasi data yanng dipost
         if ($this->request->getPost()) {
             //validasi untuk data yang di post/di inputkan
-            $data = $this->request->getPost();
-            $validate = $this->validation->run($data, 'register');
-            $errors = $this->validation->getErrors();
+            $data = $this->request->getPost();//menempatkan data yang diambil di inputan di variabel data
+            $validate = $this->validation->run($data, 'register');//validasi untuk data yang di post/di inputkan
+            $errors = $this->validation->getErrors();//cek status error
 
-            //jika tidak terdapat error
+            //jika tidak terdapat error jalankan
             if (!$errors) {
                 $modelUser = new \App\Models\M_User();
 
                 $user = new \App\Entities\User();
 
-                $user->username = $this->request->getPost('username');
-                $user->password = $this->request->getPost('password');
+                $user->username = $this->request->getPost('username');//meng-assign field ussername, dengan value post sebelumnnya
+                $user->password = $this->request->getPost('password');//meng-assign field password, dengan value post sebelumnnya
+                //password langsung terhubung ke entities User
 
                 $user->created_by = 0;
                 $user->created_date = date("Y-m-d H:i:s");
