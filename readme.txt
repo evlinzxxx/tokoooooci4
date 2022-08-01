@@ -6,6 +6,5 @@ Cara Instalasi :
 2. Clone project dari github
 3. Install Composer
 4. Migrasi database
-5. Jalankan dengan link http://127.0.0.1/tokoo/public/index.php/C_Auth/tampilan
 
 Thankyou :)
